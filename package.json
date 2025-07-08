@@ -72,7 +72,7 @@
     "hardhat-tracer": "^1.1.0-rc.9",
     "keccak256": "^1.0.6",
     "mathjs": "^11.0.1",
-    "merkletreejs": "^0.2.31",
+    "merkletreejs": "^0.5.2",
     "readline-sync": "^1.4.10",
     "uniswap": "^0.0.1"
   }
