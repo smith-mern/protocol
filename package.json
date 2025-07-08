@@ -67,7 +67,7 @@
     "eth-gas-reporter": "0.2.25",
     "express": "^4.21.1",
     "forge-std": "^1.1.2",
-    "glob": "10.3.0",
+    "glob": "10.4.5",
     "hardhat": "2.22.14",
     "hardhat-tracer": "^1.1.0-rc.9",
     "keccak256": "^1.0.6",
