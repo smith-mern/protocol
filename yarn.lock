@@ -47,14 +47,10 @@
   resolved "https://registry.npmjs.org/@beanstalk/wells/-/wells-1.2.0.tgz"
   integrity sha512-8WIe4s/glnkS1ILoVUQT4PpVyJrm1/+9an4BrUFx5U67Wcijo1Mb11d7GtzQCjHraQfySqq1KTgrLwPsRt7UHw==
 
-"@beanstalk/wells@0.4.1":
-  version "0.4.1"
-  resolved "https://registry.npmjs.org/@beanstalk/wells/-/wells-0.4.1.tgz"
-  integrity sha512-Ji4r3yxmfqrtmdLhiUVvl04v0GkJJLIs99391gUd+ysQK7/WaeOU8Rx+PaqRD6MzPzfwRl724LzEety9z9DdOQ==
-  dependencies:
-    "@nomiclabs/hardhat-ethers" "^2.2.3"
-    hardhat "^2.17.1"
-    hardhat-preprocessor "^0.1.5"
+"@beanstalk/wells@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@beanstalk/wells/-/wells-1.1.0.tgz#9e2e8df74e0d6a89ad7e0ba9dde50a8ae218ccc7"
+  integrity sha512-sqmVWtTdvth1r1D/7dtWjBn8WR7t4i+cDnCmtgnKo+jjpWKJfY/ZMQAv3C8w9DWAHWoXxZ8DtzbE0WYL9F527Q==
 
 "@bytecodealliance/preview2-shim@0.17.0":
   version "0.17.0"
@@ -963,7 +959,7 @@
     "@nomicfoundation/solidity-analyzer-linux-x64-musl" "0.1.2"
     "@nomicfoundation/solidity-analyzer-win32-x64-msvc" "0.1.2"
 
-"@nomiclabs/hardhat-ethers@^2.2.1", "@nomiclabs/hardhat-ethers@^2.2.3":
+"@nomiclabs/hardhat-ethers@^2.2.1":
   version "2.2.3"
   resolved "https://registry.npmjs.org/@nomiclabs/hardhat-ethers/-/hardhat-ethers-2.2.3.tgz"
   integrity sha512-YhzPdzb612X591FOe68q+qXVXGG2ANZRvDo0RRUtimev85rCrAlv/TLMEZw5c+kq9AbzocLTVX/h2jVIFPL9Xg==
@@ -2718,11 +2714,6 @@ emoji-regex@^9.2.2:
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-encode-utf8@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/encode-utf8/-/encode-utf8-1.0.3.tgz"
-  integrity sha512-ucAnuBEhUK4boH2HjVYG5Q2mQyPorvv0u/ocS+zhdw0S8AlHYY+GOFhP1Gio5z4icpP2ivFSvhtFjQi8+T9ppw==
-
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz"
@@ -3363,13 +3354,6 @@ flatted@^3.2.9:
   resolved "https://registry.npmjs.org/flatted/-/flatted-3.3.2.tgz"
   integrity sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==
 
-fmix@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/fmix/-/fmix-0.1.0.tgz"
-  integrity sha512-Y6hyofImk9JdzU8k5INtTXX1cu8LDlePWDFU5sftm9H+zKCr5SGrVjdhkvsim646cw5zD0nADj8oHyXMZmCZ9w==
-  dependencies:
-    imul "^1.0.0"
-
 follow-redirects@^1.12.1, follow-redirects@^1.14.0, follow-redirects@^1.15.4:
   version "1.15.9"
   resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz"
@@ -3720,13 +3704,6 @@ hardhat-gas-reporter@^1.0.4:
     eth-gas-reporter "^0.2.25"
     sha1 "^1.1.1"
 
-hardhat-preprocessor@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/hardhat-preprocessor/-/hardhat-preprocessor-0.1.5.tgz"
-  integrity sha512-j8m44mmPxpxAAd0G8fPHRHOas/INZdzptSur0TNJvMEGcFdLDhbHHxBcqZVQ/bmiW42q4gC60AP4CXn9EF018g==
-  dependencies:
-    murmur-128 "^0.2.1"
-
 hardhat-tracer@^1.1.0-rc.9:
   version "1.3.0"
   resolved "https://registry.npmjs.org/hardhat-tracer/-/hardhat-tracer-1.3.0.tgz"
@@ -3734,7 +3711,7 @@ hardhat-tracer@^1.1.0-rc.9:
   dependencies:
     ethers "^5.6.1"
 
-hardhat@2.22.14, hardhat@^2.17.1, hardhat@^2.2.1:
+hardhat@2.22.14, hardhat@^2.2.1:
   version "2.22.14"
   resolved "https://registry.npmjs.org/hardhat/-/hardhat-2.22.14.tgz"
   integrity sha512-sD8vHtS9l5QQVHzyPPe3auwZDJyZ0fG3Z9YENVa4oOqVEefCuHcPzdU736rei3zUKTqkX0zPIHkSMHpu02Fq1A==
@@ -3960,11 +3937,6 @@ import-fresh@^3.2.1:
   dependencies:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
-
-imul@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/imul/-/imul-1.0.1.tgz"
-  integrity sha512-WFAgfwPLAjU66EKt6vRdTlKj4nAgIDQzh29JonLa4Bqtl6D8JrIMvWjCnx7xEjVNmP3U0fM5o8ZObk7d0f62bA==
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -4921,15 +4893,6 @@ ms@2.1.3, ms@^2.1.1, ms@^2.1.3:
   version "2.1.3"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
-
-murmur-128@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/murmur-128/-/murmur-128-0.2.1.tgz"
-  integrity sha512-WseEgiRkI6aMFBbj8Cg9yBj/y+OdipwVC7zUo3W2W1JAJITwouUOtpqsmGSg67EQmwwSyod7hsVsWY5LsrfQVg==
-  dependencies:
-    encode-utf8 "^1.0.2"
-    fmix "^0.1.0"
-    imul "^1.0.0"
 
 napi-macros@~2.0.0:
   version "2.0.0"
